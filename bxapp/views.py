@@ -9,33 +9,51 @@ def index(request):
 	return overview(request)
 
 def overview(request):
-	# from .helpers import createbook
-	# createbook('9780553293357').make()
-	# createbook('9780131103627').make()
-	
+	try:
+		mail = request.COOKIES['mail']
+	except:
+		mail = None
+
 	try:
 		books = Book.objects.all()
 		template = loader.get_template('overview.html')
-		context = RequestContext(request, { 'books' : books })
+		context = RequestContext(request, { 'books' : books, 'name' : mail }) 
 		return HttpResponse(template.render(context))
 	except:
-		return HttpResponse("The book you've selected does not exist.")
+		return HttpResponse("The page you've selected does not exist.")
 
 def signUp(request):
-	context = RequestContext(request, {})
 	if(request.GET.get('signUp')):
 		email = request.GET.get('email')
-		password = request.GET.get('password')
-		#try:
-		createuser(email, password).signUp()
-		#except:
-		#	return HttpResponse("User name is already in use.")
-		template = loader.get_template('thankyou.html')
-		return HttpResponse(template.render(context))
+		password = request.GET.get('password')	
+		try:
+			createuser(email, password).signUp()
+		except:
+			return HttpResponse("User name is already in use.")
+		template = loader.get_template('overview.html')
 	else:
 		template = loader.get_template('signup.html')
 
+	context = RequestContext(request, {})
 	return HttpResponse(template.render(context))
+
+
+def signin(request):
+	context = RequestContext(request, {})
+
+	if(request.GET.get('signin')):
+		email = request.GET.get('email')
+		password = request.GET.get('password')	
+
+		template = loader.get_template('overview.html')
+		response = HttpResponse(template.render(context))
+		response.set_cookie('mail', email, max_age = 100)
+	else:
+		template = loader.get_template('signin.html')
+		return HttpResponse(template.render(context))
+
+	return response
+
 
 def purchase(request):
 	template = loader.get_template('purchase.html')
@@ -43,19 +61,14 @@ def purchase(request):
 	return HttpResponse(template.render(context))
 
 def addBook(request):
-	context = RequestContext(request, {})
-
 	if(request.GET.get('addBook')):
 		isbn = request.GET.get('isbn')
 		createbook(isbn).make()
-		#if(createbook(isbn).make()):
-		#	template = loader.get_template('bookAdded.html')
-		#	return HttpResponse(template.render(context))
-		#else:
-		#	return HttpResponse("Invalid ISBN")
+		template = loader.get_template('overview.html')
 	else:
 		template = loader.get_template('addBook.html')
 
+	context = RequestContext(request, {})
 	return HttpResponse(template.render(context))
 
 

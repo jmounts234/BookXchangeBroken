@@ -19,7 +19,7 @@
 					<ul>
 						<li><a href="/overview/">Home</a></li>
 						<li><a href="/addBook/">Add Book</a></li>
-						<li><a id="sign-in" href="#">Sign in</a>
+<!-- 						<li><a id="sign-in" href="#">Sign in</a>
 							<span id="sign-in-menu">
 								<div class="arrow-up"></div>
 								<div class="arrow-up-top"></div>
@@ -33,17 +33,43 @@
 									<input type="submit" value="Sign in">
 								</div>
 							</span>
-						</li>
+						</li> -->
+
+						{% if name != None %}
+						<li><a>logged in as {{ name }}</a> </li>
+						{% else %}
+						<li><a href="/signin/">Sign in</a>
 						<li><a href="/signUp/">Sign up</a>
-							
+						{% endif %}
+
 						</li>
 					</ul>
 				</div>
 			</header>
 
+			<div class="content">
 			{% for book in books %}
 
-			<div id="content">
+				<div class="post">
+						<div class="bookcover"><img src="{{ book.cover }}" /></div>
+						
+						<div class="post-content">
+							<strong>{{ book.title }}</strong> by <strong>{{ book.authors }}</strong> - {{ book.year }}<br/>
+							<br/>
+							{{ book.description }}
+							<br/><br/>
+
+							<div class="buyitdiv"><a href="/purchase/" class="buyit">Buy it</a></div>
+
+					</div>
+
+
+
+			</div>
+
+
+
+<!-- 			<div id="content">
 				<div class="post">
 					<table class="book_spec" fr>
 						<tr>
@@ -69,17 +95,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="spec">
-								<div class="buyitdiv"><a class="buyit">Buy it</a><div>
-							</td>
+					<td class="spec">
+								<div class="buyitdiv"><a href="/purchase/" class="buyit">Buy it</a><div>
+							</td> 
 						</tr>
 					</table>
 				</div>
-			</div>		
+			</div>		 -->
 
 			{% endfor %}
-
-
+			</div>
 		</div>
 
 		<script>
