@@ -49,7 +49,7 @@ def signin(request):
 
 		template = loader.get_template('overview.html')
 		response = HttpResponse(template.render(context))
-		response.set_cookie('mail', email, max_age = 100)
+		# response.set_cookie('mail', email, max_age = 100)
 	else:
 		template = loader.get_template('signin.html')
 		return HttpResponse(template.render(context))
