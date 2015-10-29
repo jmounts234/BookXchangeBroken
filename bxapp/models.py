@@ -53,7 +53,7 @@ class Book(models.Model):
 	def authors(self):
 		try:
 			data = self.get_json()
-			return ", ".join(data['items'][0]['volumeInfo']['authors'])
+			return ", ".join(data['items'][1]['volumeInfo']['authors'])
 		except:
 			return "no authors"
 
