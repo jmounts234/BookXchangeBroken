@@ -66,8 +66,11 @@ def addBook(request):
 	context = RequestContext(request, {})
 	if(request.GET.get('addBook')):
 		isbn = request.GET.get('isbn')
-		createbook(isbn).make()
-		#if not createbook(isbn).make():
+		try:
+			createbook(isbn).make()
+		except:
+			return HttpResponse("Can't add book!")
+					#if not createbook(isbn).make():
 		#	return HttpResponse("Invalid ISBN number.")
 		template = loader.get_template('overview.html')
 		return HttpResponse(template.render(context))
