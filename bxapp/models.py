@@ -1,15 +1,15 @@
 from django.db import models
 
 class User(models.Model):
-	email = models.CharField(max_length = 1234, unique=True)
+	email = models.CharField(max_length = 1234)
 	password = models.CharField(max_length=120, default='password', blank=False, null=False)
 
 class Sale(models.Model):
-	isbn = models.CharField(max_length=13, unique=True)
+	isbn = models.CharField(max_length=13)
 	seller = models.EmailField()
 
 class Book(models.Model):
-	isbn = models.CharField(max_length=13, unique=True)
+	isbn = models.CharField(max_length=13)
 	rawjson = models.CharField(max_length=100000)
 
 	def __unicode__(self):
