@@ -10,7 +10,7 @@ class Sale(models.Model):
 
 class Book(models.Model):
 	isbn = models.CharField(max_length=13)
-	rawjson = models.CharField(max_length=100000)
+	rawjson = models.CharField(max_length=500)
 
 	def __unicode__(self):
 		return self.isbn
