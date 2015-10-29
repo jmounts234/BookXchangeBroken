@@ -47,11 +47,12 @@ def addBook(request):
 
 	if(request.GET.get('addBook')):
 		isbn = request.GET.get('isbn')
-		if(createbook(isbn).make()):
-			template = loader.get_template('bookAdded.html')
-			return HttpResponse(template.render(context))
-		else:
-			return HttpResponse("Invalid ISBN")
+		createbook(isbn).make()
+		#if(createbook(isbn).make()):
+		#	template = loader.get_template('bookAdded.html')
+		#	return HttpResponse(template.render(context))
+		#else:
+		#	return HttpResponse("Invalid ISBN")
 	else:
 		template = loader.get_template('addBook.html')
 
