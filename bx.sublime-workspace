@@ -1,0 +1,669 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"roun",
+				"roundedSize"
+			],
+			[
+				"_",
+				"_allocated"
+			],
+			[
+				"O",
+				"ObjectFooter"
+			],
+			[
+				"ro",
+				"roundedSize"
+			],
+			[
+				"object",
+				"objectSize"
+			],
+			[
+				"_fr",
+				"_freeList-"
+			],
+			[
+				"wr",
+				"write_buf"
+			],
+			[
+				"wrt",
+				"write_buf"
+			],
+			[
+				"re",
+				"read_count"
+			],
+			[
+				"r",
+				"read_count"
+			],
+			[
+				"read",
+				"read_buf_size"
+			],
+			[
+				"wri",
+				"write_buf_size"
+			],
+			[
+				"writ",
+				"write_buf_size"
+			],
+			[
+				"M",
+				"MAX_BUFFER"
+			],
+			[
+				"ba",
+				"base_pointer"
+			],
+			[
+				"arr",
+				"array_info"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"f",
+				"fetch"
+			],
+			[
+				"c",
+				"columns"
+			],
+			[
+				"co",
+				"column_index"
+			],
+			[
+				"row",
+				"row_index"
+			],
+			[
+				"end",
+				"endinner"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"p",
+				"printNum2"
+			],
+			[
+				"print",
+				"printNum1"
+			],
+			[
+				"pr",
+				"printNum1"
+			],
+			[
+				"a",
+				"address_of_number_two"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"int",
+				"int_x"
+			],
+			[
+				"scan",
+				"scanFmt"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"ini",
+				"initialString"
+			],
+			[
+				"in",
+				"initialString"
+			],
+			[
+				"buff",
+				"buffer2"
+			],
+			[
+				"bit",
+				"bitmap"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"ext",
+				"extName"
+			],
+			[
+				"mse",
+				"msec"
+			],
+			[
+				"i",
+				"iterations"
+			],
+			[
+				"it",
+				"iterations"
+			],
+			[
+				"iter",
+				"iteration"
+			],
+			[
+				"pri",
+				"printFunction"
+			],
+			[
+				"m",
+				"MAX_ITER"
+			],
+			[
+				"ite",
+				"interations"
+			],
+			[
+				"max",
+				"maxVal"
+			],
+			[
+				"te",
+				"tempArray"
+			],
+			[
+				"swap",
+				"swapRow"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"st",
+				"stdio"
+			],
+			[
+				"base",
+				"baseto"
+			],
+			[
+				"ch",
+				"chartoint"
+			],
+			[
+				"n",
+				"num"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"bas",
+				"basefrom"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"wo",
+				"wordCount"
+			],
+			[
+				"lin",
+				"lineCount"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"rem",
+				"llist_remove_ith"
+			],
+			[
+				"list_r",
+				"llist_remove"
+			],
+			[
+				"my",
+				"myvalue"
+			],
+			[
+				"no",
+				"node"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"h",
+				"head"
+			],
+			[
+				"L",
+				"LINKED_LIST_ENTRY"
+			],
+			[
+				"As",
+				"ascending"
+			],
+			[
+				"fie",
+				"file_name"
+			],
+			[
+				"val",
+				"valof"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"rt",
+				"rtable_remove"
+			],
+			[
+				"tem",
+				"tempValue"
+			],
+			[
+				"temp",
+				"tempName"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"mys",
+				"mystrcpy"
+			],
+			[
+				"pl",
+				"playAgain"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"cha",
+				"changeNumbers"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bxapp/views.py",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: mips",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Vishal/Documents/BookXchange",
+		"/Users/Vishal/Documents/BookXchange/bx",
+		"/Users/Vishal/Documents/BookXchange/bxapp"
+	],
+	"file_history":
+	[
+		"/Users/Vishal/Documents/BookXchange/bxapp/models.py",
+		"/Users/Vishal/Documents/BookXchange/bxapp/admin.py",
+		"/Users/Vishal/Documents/signup.css",
+		"/Users/Vishal/Documents/signup copy.html",
+		"/Users/Vishal/Documents/books_overview.html",
+		"/Users/Vishal/Documents/BookXchange/manage.py",
+		"/Users/Vishal/Documents/BookXchange/bookxchange/__init__.py",
+		"/Users/Vishal/Documents/BookXchange/bookxchange/settings.py",
+		"/Users/Vishal/Documents/BookXchange/bookxchange/wsgi.py",
+		"/Users/Vishal/Documents/BookXchange/bookxchange/urls.py",
+		"/Users/Vishal/Documents/lab2-src/backup.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/backup.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/pwcheck.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/mail_hello.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/example.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/environment_variables.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/string_manipulation.sh",
+		"/Users/Vishal/Documents/CS 252/lab2-src/loops.sh",
+		"/Users/Vishal/Documents/hello_world.sh",
+		"/Users/Vishal/Documents/if_else.sh",
+		"/Users/Vishal/Documents/CS 252/lab1-src/MyMalloc.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test1-3.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test1-4.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test0.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test1-2.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test6.c",
+		"/Users/Vishal/Documents/CS 252/lab1-src/test7.c",
+		"/Users/Vishal/Documents/lab1-src/test0.c",
+		"/Users/Vishal/Documents/lab1-src/MyMalloc.h",
+		"/Users/Vishal/Documents/lab1-src/MyMalloc.c",
+		"/Users/Vishal/Documents/Class of 2017/Fall 2014 (Sem. 3)/cs240/lab6-src/life.c",
+		"/Users/Vishal/Documents/Class of 2017/Fall 2014 (Sem. 3)/cs240/lab7-src/MyString.cc",
+		"/Users/Vishal/Documents/Class of 2017/Fall 2014 (Sem. 3)/cs240/lab7-src/Stack.cc",
+		"/Users/Vishal/Downloads/xinu-x86-vm/system/print.S",
+		"/Users/Vishal/Downloads/xinu-x86-vm/include/prototypes.h",
+		"/Users/Vishal/Downloads/xinu-x86-vm/config/config.y",
+		"/Users/Vishal/Dropbox/lab10-src/main.c",
+		"/Users/Vishal/Dropbox/main.c",
+		"/Users/Vishal/Downloads/EvaluatePolynomials.java",
+		"/Users/Vishal/Downloads/251Spring15P4/EvaluatePolynomials.java",
+		"/Users/Vishal/Dropbox/lab9-src/main.c",
+		"/Users/Vishal/Dropbox/lab8-src/b.s",
+		"/Users/Vishal/Dropbox/lab8-src/bubble.s",
+		"/Users/Vishal/Dropbox/lab8-src/memdump.c",
+		"/Users/Vishal/Dropbox/lab8-src/main_factorial.c",
+		"/Users/Vishal/Dropbox/lab8-src/factorial.s",
+		"/Users/Vishal/Dropbox/lab8-src/main_bubble.c",
+		"/Users/Vishal/Documents/workspace/251Spring15P1/TreeParser.java",
+		"/Users/Vishal/Dropbox/bigger.c",
+		"/Users/Vishal/Dropbox/bubble.s",
+		"/Users/Vishal/Dropbox/factorial.s",
+		"/Users/Vishal/Dropbox/main_factorial.c",
+		"/Users/Vishal/Dropbox/main_bubble.c",
+		"/Users/Vishal/Documents/workspace/251Spring15P3/sanity_test.sh",
+		"/Users/Vishal/Dropbox/lab7-src/sumarray.s",
+		"/Users/Vishal/Dropbox/lab7-src/length.s",
+		"/Users/Vishal/Dropbox/lab7-src/larger.s",
+		"/Users/Vishal/Dropbox/lab7-src/len",
+		"/Users/Vishal/Dropbox/lab7-src/loop.s",
+		"/Users/Vishal/Dropbox/lab7-src/www.s",
+		"/Users/Vishal/Dropbox/lab7-src/t.s",
+		"/Users/Vishal/Dropbox/lab7-src/test1.s",
+		"/Users/Vishal/Dropbox/lab7-src/hello.s",
+		"/Users/Vishal/Dropbox/lab7-src/hello.o",
+		"/Users/Vishal/Dropbox/lab7-src/hello.c",
+		"/Users/Vishal/Dropbox/hello.s",
+		"/Users/Vishal/Documents/VTK-6.1.0/Wrapping/Java/vtk/vtkJavaMemoryManager.java",
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/MacMemory.h",
+		"/Users/Vishal/Dropbox/lab6-src/memdump.c",
+		"/Users/Vishal/Dropbox/memdump.c",
+		"/Users/Vishal/Dropbox/t.c",
+		"/Users/Vishal/Dropbox/sections.c",
+		"/Users/Vishal/Dropbox/endian.c",
+		"/Users/Vishal/Dropbox/GateID.c",
+		"/Users/Vishal/Desktop/GateID.c",
+		"/Users/Vishal/Documents/VTK-6.1.0/Views/Context2D/vtkContextView.cxx",
+		"/Users/Vishal/Documents/VTK-6.1.0/IO/Video/vtkWin32VideoSource.cxx",
+		"/Users/Vishal/Documents/VTK-6.1.0/IO/Video/vtkWin32VideoSource.h",
+		"/Users/Vishal/Documents/workspace/251Spring15P1/simple_sanity_test.sh",
+		"/Users/Vishal/Documents/workspace/251Spring15P1/sanity_test1.sh",
+		"/Users/Vishal/Documents/workspace/251Spring15P1/sanity_test2.sh",
+		"/Users/Vishal/Documents/cs251/251Spring15P0/MaxFind.java",
+		"/Users/Vishal/Downloads/251Spring15P0/MaxFind.java",
+		"/Users/Vishal/Documents/cs240/lab8-src/TreeDictionary.cpp",
+		"/Users/Vishal/Documents/cs240/lab3-src/linked_list.c",
+		"/Users/Vishal/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Vishal/Documents/cs240/lab3-src/test_linked_list.c",
+		"/Users/Vishal/Documents/cs240/lab7-src/TestStack.cc",
+		"/Users/Vishal/Documents/cs240/final review problems/hex2dec.c",
+		"/Users/Vishal/Documents/cs240/final review problems/str.c",
+		"/Users/Vishal/Documents/cs240/lab8-src/TreeDictionaryTest.cpp",
+		"/Users/Vishal/Documents/cs240/lab7-src/Sound.cc",
+		"/Users/Vishal/Documents/cs240/lab7-src/MyString.cc",
+		"/Users/Vishal/Documents/cs240/lab7-src/Stack.cc",
+		"/Users/Vishal/Documents/cs240/lab7-src/MyString.h",
+		"/Users/Vishal/Documents/cs240/lab7-src/TestMyString.cc",
+		"/Users/Vishal/Documents/cs240/lab7-src/Sound.h",
+		"/Users/Vishal/Documents/cs240/lab7-src/Stack.h",
+		"/Users/Vishal/Documents/cs240/lab4-src/convert.c",
+		"/Users/Vishal/Documents/cs240/lab5-src/newton.c",
+		"/Users/Vishal/Documents/cs240/lab5-src/gauss.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/life.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/bits.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/bits.h",
+		"/Users/Vishal/Documents/cs240/lab6-src/freq2wav.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/simple-gen.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/mysort.c",
+		"/Users/Vishal/Pictures/random/Comparison_optical_telescope_primary_mirrors.svg",
+		"/Users/Vishal/Documents/cs240/lab6-src/test_bits.c",
+		"/Users/Vishal/Documents/cs240/lab6-src/test_mysort.c",
+		"/Users/Vishal/Documents/cs240/lab5-src/test.c",
+		"/Users/Vishal/Documents/cs 240/lab5-src/newton.c",
+		"/Users/Vishal/Documents/cs 240/lab5-src/gauss.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/convert.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/countlines.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/towords.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/printargs.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/toascii.c",
+		"/Users/Vishal/Documents/cs 240/lab4-src/rpncalc.c",
+		"/Users/Vishal/Desktop/lab3-src/wordcount.c",
+		"/Users/Vishal/Desktop/lab3-src/resizable_table.h",
+		"/Users/Vishal/Desktop/lab3-src/resizable_table.c",
+		"/Users/Vishal/Desktop/lab3-src/test_resizable_table.c",
+		"/Users/Vishal/Desktop/resizable_table.c",
+		"/Users/Vishal/Desktop/resizable_table.h",
+		"/Users/Vishal/Desktop/test_resizable_table.c",
+		"/Users/Vishal/Desktop/wordcount.c",
+		"/Users/Vishal/Desktop/archive.2014-09-16T03-58-24+00-00.c"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Header",
+			"Headwe",
+			"iterations",
+			"cannot"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bxapp/views.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bx.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

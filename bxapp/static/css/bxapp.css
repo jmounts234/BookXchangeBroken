@@ -1,0 +1,45 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial;
+}
+
+div.center {
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 1024px;
+	min-height: 800px;
+	background-color: #EEE;
+}
+
+img.bookcover {
+	width: 100px;
+}
+
+table.book {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid white;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+td.cover  {
+	padding-right: 10px;
+}
+
+table.book *{
+	vertical-align: top;
+	/* border: 1px solid black; */
+	text-align: left;
+	background-color: #DDD;
+}
+
+td.overview_isbn {
+	text-align: right;
+}

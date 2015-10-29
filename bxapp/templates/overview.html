@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../static/css/main.css">
+		<title>Book Specific</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div id="header-inner">
+					<div id="logo">
+						<a href="/overview/">bookXchange</a>
+					</div>
+
+					<ul>
+						<li><a href="/overview/">Home</a></li>
+						<li><a href="/addBook/">Add Book</a></li>
+						<li><a id="sign-in" href="#">Sign in</a>
+							<span id="sign-in-menu">
+								<div class="arrow-up"></div>
+								<div class="arrow-up-top"></div>
+								
+								<div class="form">
+									<input type="text" placeholder="Username">
+									<input type="password" placeholder="Password">
+								</div>
+
+								<div class="submit-area">
+									<input type="submit" value="Sign in">
+								</div>
+							</span>
+						</li>
+						<li><a href="/signUp/">Sign up</a>
+							
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			{% for book in books %}
+
+			<div id="content">
+				<div class="post">
+					<table class="book_spec" fr>
+						<tr>
+							<td rowspan=6 class="cover">
+								<img src="{{ book.cover }}" class="bookcover" />
+							</td>
+							<td class="spec">
+								<strong>{{ book.title }}</strong> by <strong>{{ book.authors }}</strong> - {{ book.year }}<br/>
+								{{ book.subtitle }}
+							</td>
+						</tr>
+						<tr>
+							<td class="spec">
+								ISBN {{ book.get_isbn }}
+							</td>
+						</tr>
+						<tr>
+							<td class="spec"> Price $20 </td>
+						</tr>
+						<tr>
+							<td class="spec">
+								{{ book.description }}
+							</td>
+						</tr>
+						<tr>
+							<td class="spec">
+								<div class="buyitdiv"><a href="/purchase/" class="buyit">Buy it</a><div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>		
+
+			{% endfor %}
+
+
+		</div>
+
+		<script>
+			$(function() {
+				$('#sign-in').click(function() { 
+					$('#sign-in-menu').toggleClass('visible');
+				});	
+			});
+		</script>
+
+	</body>
+</html>
