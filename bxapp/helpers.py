@@ -11,7 +11,7 @@ class createbook:
 		return True
 
 	def make(self):
-		#if not self.validate_isbn(): return False
+		if not self.validate_isbn(): return False
 		from .models import Book
 		book = Book(isbn=self.isbn, rawjson=self.get_rawjson())
 		#book.save()
