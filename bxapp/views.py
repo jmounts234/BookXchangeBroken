@@ -26,10 +26,10 @@ def signUp(request):
 	if(request.GET.get('signUp')):
 		email = request.GET.get('email')
 		password = request.GET.get('password')	
-		try:
-			createuser(email, password).signUp()
-		except:
-			return HttpResponse("User name is already in use.")
+		#try:
+		createuser(email, password).signUp()
+		#except:
+		#	return HttpResponse("User name is already in use.")
 		template = loader.get_template('overview.html')
 	else:
 		template = loader.get_template('signup.html')
@@ -61,14 +61,17 @@ def purchase(request):
 	return HttpResponse(template.render(context))
 
 def addBook(request):
+	context = RequestContext(request, {})
 	if(request.GET.get('addBook')):
 		isbn = request.GET.get('isbn')
-		createbook(isbn).make()
+		#createbook(isbn).make()
+		if not createbook(isbn).make():
+			return HttpResponse("Invalid ISBN number.")
 		template = loader.get_template('overview.html')
+		return HttpResponse(template.render(context))
 	else:
 		template = loader.get_template('addBook.html')
 
-	context = RequestContext(request, {})
 	return HttpResponse(template.render(context))
 
 
