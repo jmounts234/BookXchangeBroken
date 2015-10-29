@@ -32,5 +32,5 @@ class createuser:
 	def signUp(self):
 		from .models import User
 		user = User(email = self.email, password = self.password)
-		user.save()
+		#user.save()
 		return user
