@@ -22,7 +22,7 @@ class createbook:
 		return urllib.urlopen(self.gen_url()).read()
 
 	def gen_url(self):
-		return "https://www.googleapis.com/books/v1/volumes?q=isbn:" + self.isbn
+		return "https://www.googleapis.com/books/v1/volumes?q=isbn:" + "9780671707743"
 
 class createuser:
 	def __init__(self, email, password):
