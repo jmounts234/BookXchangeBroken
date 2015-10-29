@@ -30,7 +30,7 @@ def signUp(request):
 			createuser(email, password).signUp()
 		except:
 			return HttpResponse("User name is already in use.")
-		template = loader.get_template('overview.html')
+		template = loader.get_template('thankyou.html')
 		return HttpResponse(template.render(context))
 	else:
 		template = loader.get_template('signup.html')
