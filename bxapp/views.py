@@ -26,9 +26,9 @@ def signUp(request):
 	if(request.GET.get('signUp')):
 		email = request.GET.get('email')
 		password = request.GET.get('password')
-		try:
-			createuser(email, password).signUp()
-		except:
+		#try:
+		createuser(email, password).signUp()
+		#except:
 		#	return HttpResponse("User name is already in use.")
 		template = loader.get_template('thankyou.html')
 		return HttpResponse(template.render(context))
