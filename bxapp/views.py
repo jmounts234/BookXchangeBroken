@@ -45,6 +45,8 @@ def signin(request):
 		email = request.GET.get('email')
 		password = request.GET.get('password')	
 
+		# validation
+
 		template = loader.get_template('overview.html')
 		response = HttpResponse(template.render(context))
 		response.set_cookie('mail', email, max_age = 100)
