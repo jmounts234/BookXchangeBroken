@@ -1,16 +1,16 @@
 from django.db import models
 
 class User(models.Model):
-	email = models.CharField(max_length = 1234, unique=True)
-	password = models.CharField(max_length=120, default='password', blank=False, null=False)
+	email = models.CharField(max_length = 1234)
+	password = models.CharField(max_length=120)
 
 class Sale(models.Model):
-	isbn = models.CharField(max_length=13, unique=True)
+	isbn = models.CharField(max_length=13)
 	seller = models.EmailField()
 
 class Book(models.Model):
-	isbn = models.CharField(max_length=13, unique=True)
-	rawjson = models.CharField(max_length=100000)
+	isbn = models.CharField(max_length=13)
+	rawjson = models.CharField(max_length=500)
 
 	def __unicode__(self):
 		return self.isbn
@@ -53,7 +53,7 @@ class Book(models.Model):
 	def authors(self):
 		try:
 			data = self.get_json()
-			return ", ".join(data['items'][0]['volumeInfo']['authors'])
+			return ", ".join(data['items'][1]['volumeInfo']['authors'])
 		except:
 			return "no authors"
 
