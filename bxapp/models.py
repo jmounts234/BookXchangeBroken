@@ -2,7 +2,7 @@ from django.db import models
 
 class User(models.Model):
 	email = models.CharField(max_length = 1234)
-	password = models.CharField(max_length=120, default='password', blank=False, null=False)
+	password = models.CharField(max_length=120)
 
 class Sale(models.Model):
 	isbn = models.CharField(max_length=13)
